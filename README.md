@@ -25,6 +25,8 @@ sudo apt-get install python-rpi.gpio
 ```
 After that you're good to run the script.
 
+<img src="https://github.com/Onnesok/check_internet_connection/blob/main/raspberry/raspberry_pi_gpio.png" alt="Avatar" clas="center" width="800" height="400" />
 
-to be continued....
+
+## to be continued....
 
