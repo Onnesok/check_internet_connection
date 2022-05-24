@@ -9,6 +9,9 @@
 This script will check if we get a response from google or not and from that we can determine if our internet connection is available or not. By checking our connection we can use it with other scripts and logics to do some interesting things.
 
 
+For example in this script if we are not connected to internet then we will turn on a led: else we won't. If we lose connection even once we'll light up led even after restoring connection. By this way we can determine if our internet was ever lost while this script was running.
+
+
 ## clone repo
 
 ```bash
@@ -20,4 +23,8 @@ First check if ```python-rpi.gpio```  is installed or not. so, for that open you
 ```bash
 sudo apt-get install python-rpi.gpio
 ```
+After that you're good to run the script.
+
+
+to be continued....
 
