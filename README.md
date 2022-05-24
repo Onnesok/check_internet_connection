@@ -15,7 +15,7 @@ For example in this script if we are not connected to internet then we will turn
 ## clone repo
 
 ```bash
-git clne https://github.com/Onnesok/project_WRO
+git clone https://github.com/Onnesok/check_internet_connection
 ```
 
 ## Instruction
