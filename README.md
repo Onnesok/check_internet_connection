@@ -1,4 +1,4 @@
-# check_internet_connection
+# check_internet_connection using raspberry pi 4
 
 [![License Badge](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Compatibility](https://img.shields.io/badge/python-3-brightgreen.svg)
