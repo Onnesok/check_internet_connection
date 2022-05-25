@@ -25,7 +25,6 @@ while True:
 GPIO.output(18, GPIO.HIGH)
 print("connection was lost")   
 
-GPIO.cleanup()  # clean up or resets ports
 
 
 
