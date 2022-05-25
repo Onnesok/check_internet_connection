@@ -23,10 +23,10 @@ First check if ```python-rpi.gpio```  is installed or not. so, for that open you
 ```bash
 pip install RPi.GPIO
 ```
+Now connect led positive part to raspberry pi gpio pin 18 and negative to ground. you're done....
 After that you're good to run the script.
 
 <img src="https://github.com/Onnesok/check_internet_connection/blob/main/raspberry/raspberry_pi_gpio.png" alt="Avatar" clas="center" width="800" height="400" />
 
 
-## to be continued....
 
