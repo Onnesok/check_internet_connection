@@ -1,6 +1,7 @@
 import urllib.request
 import RPi.GPIO as GPIO
 import time
+import timee
 
 
 GPIO.setmode(GPIO.BCM)
@@ -23,9 +24,9 @@ while True:
         break
 
 GPIO.output(18, GPIO.HIGH)
-print("connection was lost")   
+print("connection was lost")
 
-
+print("Inturrupt time = ", timee)
 
 
     
