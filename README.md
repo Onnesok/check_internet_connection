@@ -21,7 +21,7 @@ git clone https://github.com/Onnesok/check_internet_connection
 ## Instruction
 First check if ```python-rpi.gpio```  is installed or not. so, for that open your terminal and write:
 ```bash
-sudo apt-get install python-rpi.gpio
+pip install RPi.GPIO
 ```
 After that you're good to run the script.
 
