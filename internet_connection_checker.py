@@ -1,16 +1,20 @@
 import urllib.request
 import RPi.GPIO as GPIO
 import time
-import timee
+from datetime import datetime
 
+timeout = 5
+now = datetime.now()
+
+current_time = now.strftime("%H:%M:%S")
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(18, GPIO.OUT)
 
 while True:
-    def connect(host='http://google.com'):
+    def connect(host='https://google.com'):
         try:
-            urllib.request.urlopen(host)  # getting a ping response
+            urllib.request.urlopen(host, timeout = timeout)  # getting a ping response
             return True
         except:
             return False
@@ -26,9 +30,8 @@ while True:
 GPIO.output(18, GPIO.HIGH)
 print("connection was lost")
 
-print("Inturrupt time = ", timee)
+print("Inturrupt time = ", current_time)
 
-###
 
 
     
